@@ -25,7 +25,7 @@ class Character(Base):
     skin_color = Column(String(20))
     eye_color = Column(String(20))
     birth_year = Column(String(10))
-    gender = Column(String(10))
+    gender = Column(String(20))
 
 class Planet(Base):
     __tablename__ = 'planet'
